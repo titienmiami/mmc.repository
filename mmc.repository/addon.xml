@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="mmc.repository" name="test mmc repository" version="0.0.2" provider-name="titienmiami">
+	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
+		<info compressed="false">http://raw.github.com/titienmiami/mmc.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/titienmiami/mmc.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/titienmiami/mmc.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>testing Addon</summary>
+		<description>just playing with repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
